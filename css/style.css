@@ -1,0 +1,80 @@
+/* stylinb with ID */
+#para1 {
+    color:red;
+    background-color:black;
+    font-family: 'franklin gothic medium';
+    font-size: 10px; 
+}
+/* style with class */ 
+.paraClass{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+p{ 
+    text-decoration: underline;
+}
+/* CSS GRID */ 
+/* on each row indicate the gride area to appear as per number of partitions
+ in the grid : e.g. 10 spannables to work */ 
+#grid_container{
+    display: grid; 
+    grid-template-areas: 
+    'a a a a a a a a a a'
+    'b b c c c c c c d d'
+    'e e e e e e e e e e'
+    'f f g g g h h h i i'
+    'j j j j j j j j j j'
+    ;
+}
+#DivNav{
+    grid-area: a;
+    padding: 2px;
+    margin: 4px;
+}
+#divA{
+    grid-area: b;
+    padding: 2px;
+    margin: 4px;
+}
+#divHero{
+    grid-area: c;
+    padding: 2px;
+    margin: 4px;
+}
+#divB{ 
+    grid-area: d;
+    padding: 2px;
+    margin: 4px;
+}
+#divform{
+    grid-area: e;
+    padding: 2px;
+    margin: 4px;
+}
+#divcard1{
+    grid-area: f;
+    padding: 2px;
+    margin: 4px;
+}
+#divcard2{
+    grid-area: g;
+    padding: 2px;
+    margin: 4px;
+}
+#divcard3{
+    grid-area: h;
+    padding: 2px;
+    margin: 4px;
+}
+#divcard4{
+    grid-area: i;
+    padding: 2px;
+    margin: 4px;
+}
+#divfooter{
+    grid-area: j;
+    padding: 2px;
+    margin: 4px;
+}
